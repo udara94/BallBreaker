@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Largest Ball
+  - Large Ball
+  - Medium Ball
+  - Small Ball
+  - Smallest Ball
+  - Rocket
   layers:
   - Default
   - TransparentFX

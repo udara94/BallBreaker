@@ -47,26 +47,28 @@ public class PlayerScript : MonoBehaviour
         float h=Input.GetAxis("Horizontal");
 
         if(h>0){
-            if(velocity<maxVelocity)
+            if(velocity < maxVelocity)
                 force=speed;
             
 
             Vector3 scale= transform.localScale;
             scale.x=1;
             transform.localScale=scale;
+            
             anim.SetBool("Walk",true);
                
         }
-        else if(h<0){
-            if (velocity<maxVelocity)
+        else if(h < 0){
+            if (velocity < maxVelocity)
                 force= -speed;
             
             Vector3 scale=transform.localScale;
             scale.x= -1;
             transform.localScale=scale;
+
             anim.SetBool("Walk",true);
         }
-        else if (h==0){
+        else if (h == 0){
             anim.SetBool("Walk",false);
         }
 
