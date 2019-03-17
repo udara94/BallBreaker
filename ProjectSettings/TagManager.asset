@@ -10,6 +10,10 @@ TagManager:
   - Small Ball
   - Smallest Ball
   - Rocket
+  - Top
+  - Ground
+  - Left Wall
+  - Right Wall
   layers:
   - Default
   - TransparentFX
